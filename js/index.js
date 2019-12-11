@@ -21,15 +21,15 @@ window.onload = function () {
     //  地区轮播
     let maxLeft = document.querySelector('.maxLeft'),
         maxRight = document.querySelector('.maxRight'),
-        max = document.querySelector('.maxMax'),
-        maxDiv = max.querySelector('.maxDiv'),
-        areaMax = document.querySelector('.areaMax'),
-        fdd = document.querySelectorAll('.fdd');
+        // max = document.querySelector('.maxMax'),
+        // maxDiv = max.querySelector('.maxDiv'),
+        // areaMax = document.querySelector('.areaMax'),
+        // fdd = document.querySelectorAll('.fdd');
         items = 1,
         time = null,
         lol = true,
         wid = maxDiv.offsetWidth;
-
+  max.style.transform = "translateX(" + (-wid * items) + "px)";
     var width = document.body.clientWidth;
     // 改变浏览器大小事件      
     window.onresize = function () {

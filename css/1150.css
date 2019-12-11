@@ -154,24 +154,25 @@
    color: #f0a008;
    text-decoration: none;
 }
-.fulei{
-    width: 100% !important;
-}
+
 .maxBottom{
-    display: none;
+    height: 20%;
 }
-.maxDiv{
-    height: 95%;
-    background-size:cover ;
-}
+
 
 @media(max-width:645px){
     .banner {
         width: 100%;
         height: 774px;
-        background: url(../img/bann.png) no-repeat center;
+        background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165158526287671807884.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T00%3A59%3A45Z/-1//ba5f116cb556ad1692a062216c891759bea0ef34ab165cd144b0f18cb186d548) no-repeat center;
         background-size:cover ;
     }
+	.maxBottom h3{
+		font-size: 0.5rem;
+	}
+	.maxBottom h5{
+		font-size:0.5rem;
+	}
 }
 .fdd{
     display: block;
@@ -188,5 +189,8 @@
 }
 .topLeft{
     width: 100%;
+}
+body{
+	font-size:12px;
 }
 
