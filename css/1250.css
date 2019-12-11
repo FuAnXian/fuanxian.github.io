@@ -1,0 +1,57 @@
+.area {
+    width: 100% !important;
+}
+
+.areaMax {
+    width: 96%;
+    box-sizing: border-box;
+    border: solid 1.5px #da950a;
+}
+
+.maxLeft {
+    display: none !important;
+}
+
+.maxRight {
+    display: none !important;
+}
+
+.sift{
+	width: 100%;
+	 height: auto !important;
+}
+.sift .siftContent {
+    width: 100%;
+     height: auto !important;
+     background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165334812628809305369.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T01%3A29%3A08Z/-1//c3385781a9e08fa07be820a9db865b096070fdc828e0f6fb559dac4c3351507e)no-repeat 100% 100%;
+    background-size:cover;
+}
+
+.siftContent {
+    flex-wrap: wrap;
+    padding-bottom:20px ;
+}
+.siftTop,
+.siftBottom{
+    height: auto;
+}
+
+.topLeft {
+    width: 650px;
+}
+.lols{
+    width: 291px;
+    height: 294px;
+    margin-bottom: 25px;
+    position: relative;
+    flex-direction: column;
+    border: solid 1px #da950a;
+    transition: all 0.8s;
+}
+.topRight {
+    width: 510px;
+}
+.topRight .riBot {
+    height: 115px;
+    border-top: solid 1px #da950a;
+}
