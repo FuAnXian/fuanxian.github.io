@@ -21,10 +21,10 @@ window.onload = function () {
     //  地区轮播
     let maxLeft = document.querySelector('.maxLeft'),
         maxRight = document.querySelector('.maxRight'),
-        // max = document.querySelector('.maxMax'),
-        // maxDiv = max.querySelector('.maxDiv'),
-        // areaMax = document.querySelector('.areaMax'),
-        // fdd = document.querySelectorAll('.fdd');
+        max = document.querySelector('.maxMax'),
+        maxDiv = max.querySelector('.maxDiv'),
+        areaMax = document.querySelector('.areaMax'),
+        fdd = document.querySelectorAll('.fdd');
         items = 1,
         time = null,
         lol = true,
