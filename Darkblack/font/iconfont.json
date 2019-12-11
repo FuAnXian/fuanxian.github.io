@@ -1,0 +1,30 @@
+{
+  "id": "1534065",
+  "name": "no name",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "167213",
+      "name": "返回顶部3",
+      "font_class": "fanhuidingbu3",
+      "unicode": "e67b",
+      "unicode_decimal": 59003
+    },
+    {
+      "icon_id": "5901133",
+      "name": "右",
+      "font_class": "you",
+      "unicode": "e621",
+      "unicode_decimal": 58913
+    },
+    {
+      "icon_id": "7091373",
+      "name": "返回顶部",
+      "font_class": "fanhuidingbu",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    }
+  ]
+}

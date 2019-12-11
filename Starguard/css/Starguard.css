@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    width: 100%;
+}
+
+.banner .container {
+    margin: 0 auto;
+    width: 1920px;
+}
+
+.banner .banner_top {
+    width: 100%;
+    height: 570px;
+    background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165714543702606844056.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T02%3A32%3A25Z/-1//26479cd2dc25433409bb395fdb5175d0e66bc0caf637c62b1101246ebe8ffaf1) no-repeat center center;
+}
+
+.banner_top .header {
+    width: 100%;
+    height: 60px;
+    background: #121212;
+    position: relative;
+}
+
+.banner .banner_top .header h1 {
+    /* width: 146px; */
+    height: 43px;
+    margin-left: 26px;
+    margin-top: 2px;
+    float: left;
+}
+
+.banner .banner_top .header h1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .banner_top .header .con_nav {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.banner .banner_top .header .con_nav h2 {
+    width: 160px;
+    height: 60px;
+    background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165714553076285872241.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T02%3A32%3A25Z/-1//3c11f99ea294ebb9506094bf4ba21129ff5bf0d7bd8425fef58ce2a9e576e602) no-repeat;
+    display: inline-block;
+}
+
+.banner .banner_top .header .con_nav img {
+    padding: 10px 0px;
+    padding-right: 28px;
+    box-sizing: border-box;
+}
+
+.banner .banner_top .header .con_nav ul {
+    width: 600px;
+    height: 100%;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.banner .banner_top .header .con_nav ul li a {
+    padding: 9px 0px;
+    padding-right: 24px;
+    float: left;
+    color: #9f7228;
+    display: inline-block;
+    box-sizing: border-box;
+    transition: all 0.5s;
+}
+
+.banner .banner_top .header .con_nav ul li a:hover{
+    color: white;
+}
+
+.banner .banner_top .header .con_nav ul li .white{
+    color: white;
+}
+
+.banner .banner_top .header .phone{
+    display: none;
+}
+.banner .banner_top .header .i1{
+    display: none;
+}
+
+.con_nav .denglu{
+    position: absolute;
+    right: 200px;
+    line-height: 64px;
+}
+.con_nav .denglu a{
+    font-size: 16px;
+    color: #c38819;
+    transition: all 0.5s;
+}
+.con_nav .denglu a:hover{
+    color: white;
+}
+.con_nav .gushi a{
+    width: 121px;
+    height: 64px;
+    background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165714548390361858148.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T02%3A32%3A25Z/-1//fa412bc7cf5a4195162172eb57b3a895dee8160d2418420199a994ccdd201091) no-repeat center;
+    position: absolute;
+    right: 50px;
+}
+
+.banner_top .nav_conter {
+    text-align: center;
+}
+
+.nav_conter p:nth-child(1) {
+    margin-top: 72px;
+}
+
+.nav_conter p:nth-child(2) {
+    font-family: microsoft yahei,Helvetica,tahoma,simsun,sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 48px;
+    letter-spacing: 18px;
+    padding: 50px 0 0;
+    text-transform: uppercase;
+    font-size: 26px;
+    letter-spacing: 8px;
+    line-height: 1.22;
+    padding: 20px 10px 0;
+}
+
+.nav_conter p:nth-child(3) {
+    color: rgba(233,233,255,.549);
+    font-family: Georgia;
+    font-size: 18px;
+    line-height: 1.589;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 30px 20px 0;
+    text-align: center;
+}
+
+.banner .banner_bottom {
+    margin-top: -4px;
+    width: 100%;
+    height: 326px;
+    background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165703781750107064013.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T02%3A30%3A38Z/-1//1975c56e9b301903e88387e2ec68f547fe4726fa58307169b98e5305b6546d61) no-repeat center center;
+}
+
+.banner_bottom .container {
+    width: 900px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.banner_bottom .container h2{
+    font-family: "microsoft yahei", Helvetica, tahoma, simsun, sans-serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 5%;
+}
+.banner_bottom p{
+    position: absolute;
+    left: 0;
+    top: 70px;
+}
+.banner_bottom .container .b_center{
+    display: block;
+    padding-top: 118px;
+}
+
+/* .banner_bottom .container .b_center .right{
+    float: right;
+    width: 243px;
+    height: 67px;
+    padding-right: 100px;
+    background: url(../imges/21.png) no-repeat;
+    background-size: 70%;
+} */
+
+.banner_bottom .container .b_center .right{
+    width: 200px;
+    height: 60px;
+    float: right;
+    margin-left: 5%;
+    font-family: Spiegel, Helvetica, sans-serif, "microsoft yahei";
+    font-weight: 700;
+    background-color: rgb(10, 18, 49);
+    color: rgb(233, 233, 255);
+    cursor: pointer;
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: 1px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(73, 79, 102);
+    border-image: initial;
+    transition: background-color 0.4s ease 0s;
+    line-height: 60px;
+}
+
+.banner_bottom .container .b_center .right:hover{
+    background: rgba(73,79,102,.45);
+}
+
+.markBL_IM_5, .markBR_2OTc, .markTL_1QR5, .markTR_1J8P {
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    position: absolute;
+    width: 3px;
+}
+.markTL_1QR5{
+    left: -2px;
+    top: -2px;
+}
+
+.markTR_1J8P{
+    right: -2px;
+    top: -2px; 
+}
+
+.markBL_IM_5{
+    left: -2px;
+    bottom: -2px;
+}
+.markBR_2OTc{
+    right: -2px;
+    bottom: -2px;
+}
+
+
+
+
+
+/* .banner_bottom .container .b_center .right img{
+    margin-left: 40px;
+    margin-top: 12px;
+} */
+
+.content{
+    width: 100%;
+    height: 2382px;
+    background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165706144023744381583.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T02%3A31%3A01Z/-1//202a1afc1728fc5616c2147332930da421e51916b450cfda7e5579e15bb1786f) no-repeat center center;
+}
+.content .container{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.content .con_top{
+    text-align: center;
+}
+.content .con_top img{
+    padding-top: 100px;
+    text-align: center;
+}
+.content .con_bottom{
+    /* width: 930px;
+    height: 100%;
+    margin: 0 auto; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto 0;
+    width: 85%;
+}
+
+.bottom_1Lim{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    width: 85%;
+    margin: 80px auto 0px;
+}
+.bom_kbc{
+    background-color: rgba(73, 79, 102, 0.05);
+    height: 730px;
+    position: relative;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(73, 79, 102);
+    border-image: initial;
+    flex: 0 0 45%;
+    padding: 22px;
+    margin: 0 -8%;
+}
+
+.bom_29dV, .bom_1W7y, .bom_3aLZ, .bom_tO0m{
+    background-color: rgb(255, 255, 255);
+    height: 3px;
+    position: absolute;
+    width: 3px;
+}
+
+.bom_29dV{
+    left: -2px;
+    top: -2px;
+}
+.bom_1W7y{
+    right: -2px;
+    top: -2px;
+}
+.bom_3aLZ{
+    bottom: -2px;
+    left: -2px;
+}
+.bom_tO0m{
+    bottom: -2px;
+    right: -2px;
+}
+
+.bom_xTIq{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.image_3oOd {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165709264215546546048.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T02%3A31%3A32Z/-1//d01d09060394ebf3243e4f2c7696c80401c8c74af2b6bcf592a10014004aafdf);
+    background-attachment: local;
+    background-color: #0a0a0c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: opacity .4s ease;
+    background-position: 53.1048% 46.7241%;
+    width: 100%;
+}
+.image_Ss{
+    background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165709268903776261968.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T02%3A31%3A32Z/-1//18d24b7feed3749e9166cfe0cd698f98ee5ccb0d7fb1d4ea1c7a07a7f1f5400a);
+    background-size: cover;
+}
+
+.image_3hwP {
+    max-height: 50%;
+}
+
+.content_1mAK {
+    background-color: #060e2d;
+    bottom: 0;
+    min-height: 300px;
+    padding: 55px;
+    position: absolute;
+    text-align: left;
+    /* width: 100%; */
+}
+.content_1mAK h1 {
+    font-family: microsoft yahei,Helvetica,tahoma,simsun,sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-size: 28px;
+    letter-spacing: 3px;
+    line-height: 1.2;
+}
+.content_1mAK h3, .content_1mAK h3 span {
+    font-family: Spiegel,Helvetica,sans-serif,microsoft yahei;
+    font-weight: 400;
+    color: #fc39af!important;
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    line-height: 1.162;
+    padding: 10px 0 18px;
+}
+.content_1mAK p {
+    color: #e9e9ff;
+    font-family: Georgia;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.bottom_FwsP {
+    font-family: Spiegel,Helvetica,sans-serif,microsoft yahei;
+    font-weight: 700;
+    background-color: #0a1231;
+    border: 1px solid #494f66;
+    color: #e9e9ff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding: 22px 44px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    transition: background-color .4s ease;
+}
+.content_1mAK .button_1ah {
+    bottom: 48px;
+    position: absolute;
+    width: calc(100% - 96px);
+}
+.content_1mAK .button_1ah>div{
+    display: block;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.content_1mAK .button_1ah .bottom_FwsP:hover{
+    background: rgba(73,79,102,.45);
+}
+
+
+
+
+/* .content .con_bottom ul{
+    width: 100%;
+}
+
+.content .con_bottom ul li{
+    width: 404px;
+    height: 794px;
+    background: url(../imges/16.png) no-repeat;
+    float: left;
+    margin: 50px 27px;
+}
+.con_bottom ul li p{
+    text-align: center;
+    margin-top: 30px;
+}
+.con_bottom ul li div{
+    width: 344px;
+    height: 448px;
+    background: #151a4a;
+    margin-left: 30px;
+    margin-top: -5px;
+    float: left;
+}
+
+.con_bottom ul li div{
+    position: relative;
+}
+
+.con_bottom ul li div p{
+    margin-top: 70px;
+}
+.con_bottom ul li div .img1{
+    position: absolute;
+    bottom: 70px;
+    left: 55px;
+    width: 243px;
+    height: 67px;
+    background: url(../imges/21.png) no-repeat;
+}
+.con_bottom ul li div .img1 img{
+    margin-top: 25px;
+}
+.con_bottom ul li div .img2{
+    position: absolute;
+    bottom: 70px;
+    left: 55px;
+    width: 243px;
+    height: 67px;
+    background: url(../imges/21.png) no-repeat;
+}
+.con_bottom ul li div .img2 img{
+    margin-top: 25px;
+} */
+
+
+
+.copy {
+    width: 100%;
+    padding-bottom: 20px;
+    border-top: solid 1px #A06A0F;
+    position: relative;
+    background: #000000;
+}
+
+.copy-logo {
+    margin: 30px auto;
+    width: 91px;
+    height: 30px;
+    background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165697081042841055886.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T02%3A29%3A30Z/-1//471e46babec9ae0b7a909ce7391507f56326fd6fd01ddcb8d475a415d0a0168d)no-repeat;
+    background-size: 100%;
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.lists li {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.lists li a {
+    transform: all .5s;
+    color: #A06A0F;
+}
+
+.lists li:hover {
+    color: #fff;
+}
+
+.copy p {
+    text-align: center;
+    font-size: 15px;
+    color: #A06A0F;
+}
+#click{
+    display: none;
+}
+
+
+
+
+/* .footer{
+    width: 100%;
+    height: 249px;
+    background: url(../imges/24.png) no-repeat center center;
+    
+}
+.footer .container{
+    width: 1000px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.footer .f_top{
+    position: absolute;
+    top: 40px;
+    left: 390px;
+}
+.footer .f_bottom{
+    position: absolute;
+    bottom: 40px;
+    left: 30px;
+} */

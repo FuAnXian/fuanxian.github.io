@@ -1,0 +1,711 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#aodesai {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+
+#aodesai .aheader {
+    width: 100%;
+    height: 64px;
+    background: #121212;
+    margin: 0 auto;
+    position: relative;
+}
+
+.aheader h1 {
+    width: 154px;
+    height: 100%;
+    background: url(../images/logo.png) no-repeat center;
+    text-indent: -999px;
+    position: absolute;
+    left: 0px;
+}
+
+.aheader h1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.aheader .container {
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.aheader .container h2 {
+    float: left;
+    display: inline-block;
+    width: 160px;
+    height: 64px;
+    background: url(../images/1.jpg);
+}
+
+.aheader .listUl {
+    padding-top: 12px;
+    float: left;
+    text-align: center;
+}
+
+.aheader .listUl li {
+    float: left;
+    padding: 0 20px;
+}
+
+.aheader .listUl li a {
+    color: #c38819;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+
+.aheader .listUl li a:hover{
+    color: white;
+}
+
+.aheader .listUl li .white{
+    color: white;
+}
+
+.aheader .denglu {
+    position: absolute;
+    right: 200px;
+}
+
+.aheader .denglu a {
+    font-size: 16px;
+    color: #c38819;
+    line-height: 64px;
+    transition: all 0.5s;
+}
+
+.aheader .denglu a:hover{
+    color: white;
+}
+
+.aheader .gushi a {
+    width: 121px;
+    height: 64px;
+    background: url(../images/4.jpg) no-repeat center;
+    position: absolute;
+    right: 50px;
+    top:0;
+}
+
+.icon{
+    font-size:0;
+}
+.phone{
+    display:none;
+}
+
+
+
+
+#aodesai .abanner {
+    height: 1068px;
+}
+
+.abanner .container {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.abanner .container::after {
+    background: linear-gradient(0deg, #000000 0, rgba(0, 0, 0, 0));
+    bottom: 0;
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 100%;
+}
+
+.abanner .container video {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: -12px auto 0 auto;
+}
+
+.abanner .container img {
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    margin-left: -208px;
+    width: 320px;
+}
+
+
+
+
+
+
+#aodesai .amain1 {
+    height: 1166px;
+    overflow: hidden;
+    width: 100%;
+    background: url(../images/bg.png) no-repeat center center;
+}
+
+.amain1 .container {
+    width: 920px;
+    height: 1168px;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: '黑体';
+    text-align: center;
+    overflow: hidden;
+}
+
+.amain1 .container .a_top {
+    width: 100%;
+    height: 350px;
+    margin-top: 34px;
+}
+
+.amain1 .container h2 {
+    font-size: 34px;
+    color: #e2e2e2;
+    line-height: 87px;
+}
+
+.amain1 .container p {
+    color: #c4c4c4;
+    font-size: 22px;
+    line-height: 45px;
+}
+
+.amain1 .container .a_top .l_height {
+    line-height: 60px;
+}
+
+.amain1 .container .a_bottom {
+    margin-top: 40px;
+    margin-left: 102px;
+    text-align: left;
+}
+
+.amain1 .container .a_bottom p:nth-child(1) {
+    color: #e08c3f;
+    font-size: 20px;
+}
+
+.amain1 .container .a_bottom p:nth-child(2) {
+    font-size: 34px;
+}
+
+.amain1 .container .a_bottom img {
+    margin-top: 70px;
+}
+
+
+
+
+
+
+#aodesai .amain2 {
+    height: 1269px;
+    position: relative;
+}
+
+.amain2 .imgs {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    background: url(../images/space_odyssey_gallery_bg.jpg) center;
+}
+
+.amain2 .imgs .root_20j {
+    position: absolute;
+    /* overflow: hidden; */
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+   
+    /* background:url(../images/odyssey-splash-cropped-jinx.png)no-repeat; */
+    background-position: 0 50%;
+}
+
+.linear {
+    width: 100%;
+    height: 15%;
+    background-image: linear-gradient(to bottom, #000000, #0000008f, #ffffff00);
+}
+
+.text {
+    width: 500px;
+    margin-left: 900px;
+    height: 100%;
+    right: 0;
+}
+
+.text dl {
+    float: left;
+    margin-bottom: 30px;
+}
+
+.text dt {
+    color: #f99d20;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+
+.text .zs {
+    color: rgb(193, 55, 222);
+}
+
+.text dd {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.text .text-top {
+    float: right;
+}
+
+.text-body {
+    width: 100%;
+    /* overflow: hidden; */
+    margin-top: 50px;
+    /* border-radius:50px ; */
+    border: solid 2px #cccc;
+    /* background: #0a131b; */
+    box-sizing: border-box;
+    clip-path: polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px);
+    position: relative;
+    background-color: #010a13;
+    max-width: 500px;
+}
+
+.text-body .p {
+    padding: 0% 5% 10% 5%;
+}
+
+.text-body ul {
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.text-body ul li {
+    float: left;
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    background: rgb(35, 42, 49);
+    color: #fff;
+    cursor: pointer;
+}
+
+.text-body ul li.active {
+    background: #0a131b;
+    border: solid #cccc 1px;
+    box-sizing: border-box;
+    color: #f99d20;
+}
+
+.text-body ul li:hover.active {
+    background: #06121e;
+}
+
+.text-body p {
+    margin: 20px 0;
+    line-height: 24px;
+    color: #fff;
+}
+
+.text dl {
+    width: 50%;
+}
+
+.clear:after,
+.clear:before {
+    content: '';
+    clear: both;
+    height: 0;
+    display: table;
+}
+
+.list {
+    position: relative;
+    height: 200px;
+    background: #000;
+    width: 100%;
+    overflow: hidden;
+}
+
+.lol {
+    position: absolute;
+    left: 39%;
+    top: 2%;
+    z-index: 99;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.lol li {
+    width: 80px;
+    height: 80px;
+    transition: all .5s;
+    border: solid 1.5px #fff;
+    margin: 0 15px;
+    float: left;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.lol li.active {
+    border: solid 1.5px #f99d20;
+    transform: scale(1.1);
+}
+
+.lol li span {
+    transform: translate(5px, 6px);
+    display: block;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.lol li p {
+    margin-top: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+/* .lol li::after{
+    content:'';
+    text-align: center;
+   border: solid 1.5px #cccccc;
+   position: absolute;
+   transform:translate(-7px,-7px) ;
+   width: 80px;
+   height: 80px;
+   border-radius:50%;
+} */
+/* .lol li.active::before{
+    transition: all .5s;
+    opacity: 0;
+    content:'';
+    text-align: center;
+    border: solid 1.5px #ffff00;
+    position: absolute;
+    transform:translate(-12px,-12px) ;
+    width: 90px;
+    height: 90px;
+    border-radius:50%;
+} */
+
+.lol .yansuo span {
+    background: url(../images/odyssey-avatar-yasuo.jpg) no-repeat center center;
+}
+
+.lol .jinkesi span {
+    background: url(../images/odyssey-avatar-jinx.jpg) no-repeat center center;
+}
+
+.lol .jikesi span {
+    background: url(../images/odyssey-avatar-ziggs.jpg) no-repeat center center;
+}
+
+.lol .shona span {
+    background: url(../images/odyssey-avatar-sona.jpg) no-repeat center center;
+}
+
+.lol .sitou span {
+    background: url(../images/odyssey-avatar-malphite.jpg) no-repeat center center;
+}
+
+.lol .kaiyin span {
+    background: url(../images/odyssey-avatar-kayn.jpg) no-repeat center center;
+}
+
+.lol .jie span {
+    background: url(../images/odyssey-avatar-zed.jpg) no-repeat center center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.lol1{
+    background: url(../images/odyssey-splash-cropped-yasuo.png) no-repeat;
+}
+.lol2{
+  background:url(../images/odyssey-splash-cropped-jinx.png) no-repeat;
+    
+}
+.lol3{
+    background: url(../images/odyssey-splash-cropped-ziggs.png) no-repeat;
+}
+.lol4{
+    background: url(../images/odyssey-splash-cropped-sona.png) no-repeat;
+}
+.lol5{
+    background: url(../images/odyssey-splash-cropped-malphite.png) no-repeat;
+}
+.lol6{
+    background: url(../images/odyssey-splash-cropped-kayn.png) no-repeat;
+}
+.lol7{
+    background: url(../images/odyssey-splash-cropped-zed.png) no-repeat;
+}
+
+
+
+
+#aodesai .root_jZQc {
+    width: 100%;
+    height: 610px;
+    background: url(../images/space_odyssey_gallery_bg.jpg) center;
+    position: relative;
+}
+
+/* .amain2 .root_jZQc::before{
+    content: '';
+    width: 100%;
+    height: 200px;
+    display: block;
+    background-image: linear-gradient(180deg,#010a13 0,rgba(0,0,0,0));
+    position: absolute;
+    left: 0;
+} */
+.juzhong {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.root_jZQc .J_header p {
+    letter-spacing: .06em;
+    font-weight: 700;
+    font-size: 10px;
+    color: #f99d20;
+    margin-bottom: 5px;
+}
+
+.root_jZQc .J_header h2 {
+    font-size: 18px;
+    color: #e5f5f9;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.root_jZQc .root_TD {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.root_jZQc .root_TD li {
+    margin: 10px;
+    width: 180px;
+    height: 180px;
+    box-sizing: border-box;
+    clip-path: polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px);
+    position: relative;
+    display: block;
+    background-size: cover;
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+
+.root_jZQc .root_TD li:hover {
+    opacity: 1;
+}
+
+.jinx {
+    background: url(../images/odyssey-splash-jinx.jpg) no-repeat;
+    background-position: -61px 0px;
+}
+
+.yasuo {
+    background: url(../images/odyssey-splash-yasuo.jpg) no-repeat;
+    background-position: -61px 0px;
+}
+
+.ziggs {
+    background: url(../images/odyssey-splash-ziggs.jpg) no-repeat;
+    background-position: -61px 0px;
+}
+
+.sona {
+    background: url(../images/odyssey-splash-sona.jpg) no-repeat;
+    background-position: -61px 0px;
+}
+
+.kayn {
+    background: url(../images/odyssey-splash-kayn.jpg) no-repeat;
+    background-position: -61px 0px;
+}
+
+.malphite {
+    background: url(../images/odyssey-splash-malphite.jpg) no-repeat;
+    background-position: -61px 0px;
+}
+
+.splash {
+    background: url(../images/odyssey-splash.jpg) no-repeat;
+    background-position: -36px 0px;
+}
+
+.plants {
+    background: url(../images/odyssey-alien-plants.jpg) no-repeat;
+    background-position: -61px 0px;
+}
+
+.an_01 {
+    background: url(../images/odyssey-animatic-01.jpg) no-repeat;
+    background-position: -61px 0px;
+}
+
+.an_02 {
+    background: url(../images/odyssey-animatic-02.jpg) no-repeat;
+    background-position: -61px 0px;
+}
+
+.imgIs {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+}
+
+.imgIs img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%, -50%);
+}
+
+#dele {
+    position: absolute;
+    right: 8%;
+    top: 8%;
+    width: 40px;
+    height: 40px;
+    transition: all .3s;
+    border: solid 1px #f99d20;
+    background: transparent;
+}
+
+#dele::after {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    left: 8px;
+    transform: rotateZ(-43deg);
+}
+
+#dele::before {
+    content: '';
+    width: 20px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    right: 9px;
+    transform: rotateZ(45deg);
+}
+
+#dele:hover {
+    background: #f99d20;
+}
+
+
+
+
+
+/* #aodesai .afooter{
+    width: 100%;
+    margin: 100px auto 0 auto;
+    border-top: solid 1px #A06A0F;
+	position: relative;
+}  */
+.copy {
+    width: 100%;
+    padding-bottom: 20px;
+    border-top: solid 1px #A06A0F;
+    position: relative;
+    background: #000000;
+}
+
+.copy-logo {
+    margin: 30px auto;
+    width: 91px;
+    height: 30px;
+    background: url(../images/3.png)no-repeat;
+    background-size: 100%;
+}
+
+.lists {
+    list-style: none;
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.lists li {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.lists li a {
+    transform: all .5s;
+    color: #A06A0F;
+}
+
+.lists li:hover {
+    color: #fff;
+}
+
+.copy p {
+    text-align: center;
+    font-size: 15px;
+    color: #A06A0F;
+}
+#click{
+    display: none;
+}
+

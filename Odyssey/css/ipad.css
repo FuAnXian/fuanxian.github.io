@@ -1,0 +1,28 @@
+.lists {
+    list-style: none;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 200%;
+}
+.copy {
+    width: 100%;
+    border-top: solid 1px #A06A0F;
+    position: relative;
+    background: #000000;
+    padding-bottom:5%; 
+
+}
+.dd dl {
+    text-align: left;
+}
+.lol{
+    display: flex;
+    width: 100%;
+    left: 0%;
+    height: 100px;
+    padding-top:2%;
+    flex-wrap: nowrap; 
+    overflow-y: scroll;
+}

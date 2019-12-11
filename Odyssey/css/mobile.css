@@ -1,0 +1,330 @@
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.aheader .gushi a {
+    display: none;
+}
+
+.aheader ul {
+    display: none;
+}
+
+.aheader ul li {
+    float: none;
+}
+
+.aheader .container h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.aheader .denglu {
+    position: absolute;
+    right: 5%;
+    line-height: 64px;
+}
+
+.aheader h1 {
+    width: auto;
+    left: 5%;
+    background: url(../images/2.jpg) no-repeat center;
+}
+
+.abanner .container video {
+    position: static;
+    width: 100%;
+    left: 0%;
+    transform: translateX(0%);
+    margin: 0;
+}
+
+#aodesai .abanner {
+    height: auto;
+}
+
+.abanner .container img {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    margin: 0;
+    transform: translateX(-50%);
+    width: 30%;
+}
+
+.abanner .container {
+    position: relative;
+    background: #000;
+}
+
+#aodesai .amain1 {
+    height: auto;
+    overflow: hidden;
+    width: 100%;
+    background: url(../images/bg.png) no-repeat center center;
+}
+
+.amain1 .container {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15%;
+    margin: 0 auto;
+    color: #ffffff;
+    font-family: '黑体';
+    text-align: left;
+    overflow: hidden;
+}
+
+.amain1 .container h2 {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 100%;
+    padding-bottom: 5%;
+}
+
+.amain1 .container .a_top .l_height {
+    line-height: 150%;
+}
+
+.amain1 .container p {
+    font-size: .8rem;
+    text-indent: 2em;
+}
+
+.amain1 .container .a_top {
+    width: 80%;
+    padding: 10% 10%;
+    height: auto;
+    margin: 0;
+}
+
+.amain1 .container p {
+    font-size: .8rem;
+    line-height: 150%;
+}
+
+.icon {
+    position: absolute;
+    color: rgb(201, 170, 113);
+    font-size: 40px;
+    line-height: 64px;
+    left: 18%;
+}
+
+#aodesai .aheader {
+    width: 100%;
+    height: 64px;
+    overflow: none;
+    background: #121212;
+    margin: 0 auto;
+    position: relative;
+}
+
+.aheader .phone {
+    position: absolute;
+    z-index: 99999;
+    left: 0;
+    top: 64px;
+    display: none;
+    width: 30%;
+    padding-top: 0;
+    height: 100%;
+}
+
+.aheader .phone li {
+    background: #121212;
+    width: 100%;
+    padding: 10% 23%;
+    overflow: hidden;
+    border-top: #5d4e32 solid 1px;
+    text-align: center;
+    /* text-overflow:ellipsis; */
+    /* white-space: nowrap; */
+}
+
+.aheader .phone li a {
+    color: #c9aa71;
+    font-weight: 700;
+    text-align: center;
+}
+
+#click:checked~.phone {
+    display: block;
+}
+
+.amain1 .container .a_bottom {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.amain1 .container .a_bottom p:nth-child(1) {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.amain1 .container .a_bottom p:nth-child(2) {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.amain1 .container .a_bottom img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+#aodesai .amain2 {
+    overflow: hidden;
+}
+
+.lol {
+    display: flex;
+    width: 100%;
+    left: 0%;
+    height: 100px;
+    padding-top: 2%;
+    flex-wrap: nowrap;
+    overflow-y: none;
+}
+
+.lol li {
+    width: 60px;
+    height: 60px;
+    transition: all .5s;
+    border: none;
+    margin: 0 5%;
+    float: left;
+    border-radius: 50%;
+    cursor: pointer;
+    flex: 1;
+}
+
+.lol li.active {
+    border: none;
+}
+
+.lol li:hover p {
+    color: #f99d20;
+}
+
+.lol li span {
+    width: 50px;
+    height: 50px;
+    transform: translate(1%, 10%);
+}
+
+#aodesai .amain2 .lol li span {
+    background-size: 100%;
+}
+
+.text {
+    margin-left: 0;
+}
+
+.amin_warp {
+    width: 90%;
+    height: 10%;
+    overflow: hidden;
+    padding: 0 5%;
+    position: relative;
+    border: solid #525252 1px;
+    background: url(../images/space_odyssey_gallery_bg.jpg)no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.amain2 .imgs .root_20j {
+    position: absolute;
+    /* overflow: hidden; */
+    height: 100%;
+    width: 100%;
+    transition: all 1s;
+    opacity: 1;
+    left: 50%;
+    transform: translateX(-50%);
+    background-size: 180%;
+    background-position: 0 0%;
+}
+
+.text {
+    width: auto;
+    height: 100%;
+    right: 0;
+}
+
+.dd {
+    width: 80%;
+    padding: 0 10%;
+}
+
+.dd dl {
+    width: 46%;
+    padding: 0 2%;
+}
+
+.text dt {
+    color: #f99d20;
+    font-size: 0.5rem;
+    padding-bottom: 5px;
+}
+
+.text dd {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.text-body {
+    width: 90%;
+    margin: 50px auto 0 auto;
+
+    border: solid 2px #cccc;
+    box-sizing: border-box;
+    clip-path: polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px);
+    position: relative;
+    background-color: #010a13;
+    max-width: 500px;
+}
+
+.juzhong {
+    width: auto;
+    margin: 0 auto;
+}
+
+.J_header {
+    text-align: center;
+}
+
+.root_jZQc .juzhong .root_TD {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: row;
+}
+
+#aodesai .root_jZQc {
+    padding: 5% 0;
+    height: auto;
+}
+
+.root_jZQc .root_TD li {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    clip-path: polygon(20px 0, calc(100% - 20px) 0, 100% 20px, 100% calc(100% - 20px), calc(100% - 20px) 100%, 20px 100%, 0 calc(100% - 20px), 0 20px);
+    position: relative;
+    display: block;
+    background-size: cover;
+    opacity: 0.6;
+    transition: all 0.5s;
+}
+
+.dd dl {
+    width: 46%;
+    padding: 0 2%;
+    text-align: center;
+}
