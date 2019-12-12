@@ -39,10 +39,6 @@ window.onload = function () {
         console.log(fdd, width)
 
     }
-     
-  
-
-
 
     time = setInterval(animtaion, 4000)
 
@@ -53,7 +49,6 @@ window.onload = function () {
 
     areaMax.onmouseover = function () {
         clearInterval(time);
-		console.log(66)
     }
 
 
