@@ -573,12 +573,13 @@ a {
      background-size:100% ;
 }
 .maxBottom{
-    height: 100px;
+    height: 90px;
     width: 100%;
     display: flex;
+	padding: 0 2px;
 	box-sizing: border-box;
-	border-left:solid 1px #DA950A ;
-	border-right:solid 1px #DA950A ;
+	border:solid 1px #DA950A ;
+	/* border-right:solid 1px #DA950A ; */
     align-items: center;
     align-content: center;
     justify-content: flex-start;
@@ -586,14 +587,16 @@ a {
 .maxBottom .bottomLeft{
     width: 210px;
     height: 100%;
+	flex: 2;
 }
 .fuIc{
      background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165313499590331117811.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T01%3A25%3A35Z/-1//a3b16fa8c5e622c8275f8ef14bbea64b13a1d680943954e5662017e5c7476dc3)no-repeat center center;
-     background-size:20% ;
+     background-size:10% ;
 }
 .maxBottom .bottomCenter{
     width: 640px;
     height: 100%;
+	flex: 4;
 	box-sizing: border-box;
     border-left:solid 1px #da950a;
     border-right: solid 1px #da950a;
@@ -602,6 +605,7 @@ a {
 .maxBottom .bottomRight{
     width: 210px;
     height: 100%;
+	flex: 2;
 	position: relative;
 }
 .maxBottom .h3{
@@ -631,14 +635,15 @@ a {
 }
 .nuokeIc{
     background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165313508968409145995.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T01%3A25%3A35Z/-1//17df65ec1fc9af26838eac0d9b390e9ce3af44d0eb4d593a01a4c030137e4a47)no-repeat center center;
-    background-size:20%;
+    background-size:15%;
 }
 .anyingDiv{
     background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371168993716383462702420.jpg?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T11%3A38%3A57Z/-1//21514579c87870847ac0f5b2105886cda2766a0d693e943ada2da73285476f03)no-repeat;
+    background-size:100%;
 }
 .anyingIc{
     background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165313513652554160087.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T01%3A25%3A35Z/-1//a8265b83d3427e11f08e328d0e4254a36f8e9023f2653cc2c23d09c034e032d1)no-repeat center center;
-    background-size:15%;
+    background-size:10%;
 }
 .demaDiv{
     background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371168960490381034227420.jpg?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T11%3A33%3A24Z/-1//1b837f38bd232b766d00e9c80f4db784bc0198cb0df62a5a0b4bfea4e85ce821)no-repeat;
@@ -646,7 +651,7 @@ a {
 }
 .demaIc{
     background: url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165313502725208361148.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T01%3A25%3A35Z/-1//be0f61eec97a2c5cd4c1727cdf695e96021f72ba0139ef21f5d0f8f2a599246e)no-repeat center center;
-    background-size:15% ;
+    background-size:10% ;
 }
 
 

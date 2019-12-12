@@ -53,6 +53,7 @@ window.onload = function () {
 
     areaMax.onmouseover = function () {
         clearInterval(time);
+		console.log(66)
     }
 
 
