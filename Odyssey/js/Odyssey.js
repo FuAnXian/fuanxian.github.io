@@ -133,4 +133,32 @@ window.onload = function () {
         imgIs.style.display = 'none';
         body.style.overflow = 'auto';
     }
+	
+	
+	let audio = document.querySelector('.audio');
+	let yaSuo = document.querySelector('.yansuo')
+	let jinKesi = document.querySelector('.jinkesi')
+	let kaiYin = document.querySelector('.kaiyin')
+	let jie = document.querySelector('.jie')
+	
+	yaSuo.addEventListener('click',function(){
+		audio.src = '../images/yasuo.wav';
+		audio.play();
+	})
+	
+	jinKesi.addEventListener('click',function(){
+		audio.src = '../images/jinkesi.wav';
+		audio.play();
+	})
+	
+	kaiYin.addEventListener('click',function(){
+		audio.src = '../images/kaiyin.wav';
+		audio.play();
+	})
+	
+	jie.addEventListener('click',function(){
+		audio.src = '../images/jie.wav';
+		audio.play();
+	})
+	
 }
