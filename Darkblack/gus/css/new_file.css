@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.hader {
+	width: 100%;
+	height: 62px;
+	overflow: hidden;
+	position: relative;
+	background: #121212;
+	
+	
+}
+
+.hader .logo {
+	position: absolute;
+	left: 50px;
+	top: 50%;
+	margin-top: -13px;
+	height: 26px;
+	width: 91px;
+	line-height: 62px;
+	margin-left: 50px;
+	background: url(../img/logo.png)no-repeat;
+
+}
+
+nav {
+	width: 50%;
+	margin: 0 auto;
+	heigt: inherit;
+}
+
+nav ul {
+	margin: 0 auto;
+	height: 62px;
+}
+
+nav ul li {
+	list-style: none;
+	float: left;
+	margin-left: 5%;
+	text-align: center;
+	margin-top: 10px;
+	position: relative;
+}
+
+nav ul li.invi {
+	height: 62px;
+	width: 130px;
+	background: url(../img/1.jpg)no-repeat;
+	background-size: 110%;
+	background-position: 0 -10px;
+	cursor: pointer;
+}
+
+nav ul li.invi:after {
+	content: '';
+	position: absolute;
+	right: -10%;
+	top: 2px;
+	width: 1.8px;
+	height: 60%;
+	background-color: #5c5c5c;
+}
+
+nav ul li a {
+	font-size: 15px;
+	color: #a06a0f;
+	font-weight: 550;
+	transition: all .5s;
+}
+
+nav ul li p:after {
+	position: absolute;
+	bottom: 14px;
+	display: block;
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #fff;
+	transition: all .3s;
+}
+
+nav ul li:hover a,
+nav ul li:hover p {
+	color: #fff;
+
+	cursor: pointer;
+}
+
+nav ul li:hover p:after {
+	bottom: 14px;
+	display: block;
+	content: '';
+	width: 100%;
+	height: 2px;
+	background: #fff;
+}
+
+.english {
+	font-size: 12px;
+	color: #a06a0f;
+	transition: all .5s;
+}
+
+.hader .in {
+	position: absolute;
+	right: 80px;
+	top: 0;
+	height: 62px;
+	overflow: hidden;
+}
+
+.in a {
+	float: left;
+	display: block;
+	margin: 0 10px;
+}
+
+.in a:nth-child(1) {
+	color: #A06A0F;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 62px;
+}
+
+.in a:nth-child(1):hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.in a:nth-child(2) {
+	width: 130px;
+	height: 32px;
+	margin: 16px auto;
+	transition: all .3s;
+	/* border:2px solid ;
+	border-image:linear-gradient(135deg,#c8aa6e,#a37e2e) 1 10; */
+	background: url(../img/4.jpg)no-repeat;
+}
+
+.in a:nth-child(2):hover {
+	transform: scale(1.05);
+}
+.txt{
+    width: 100%;
+	height: 1080px;
+	position: fixed;
+	background: url(../img/darkin-the-great-darkin-war.jpg)no-repeat ;
+	background-position: 0 0;
+	background-size: cover;
+	top: 0px;
+	z-index: -1;
+	
+}
+.h1{
+	width: 100%;
+	height: 60px;
+	position: absolute;
+	margin-top: 800px;
+}
+.h1 h1{
+	color: #f0e6d2;
+	font-size: 60px;
+	font-family: "arial black";
+	font-weight: 800;
+    line-height: 60px;
+	text-align: center;
+}
+.dac{
+	position: absolute;
+	margin-top: 65px;
+	margin-left: 60px;
+}
+.short{
+	font-size: 12px;
+	font-weight: 600;
+}
+.anyi{
+	font-size: 25px;
+	font-weight: 800;
+}
+.txt .item{
+	width: 300px;
+	height: 2px;
+}
+.txt .item .item1{
+	width:300px;
+	height: 2px;
+	background-color: #f0e6d2;
+	margin-top: 10px;
+}
+.txt .item .item2{
+	width:300px;
+	height: 2px;
+	background-color: #5C5C5C;
+}
+.short{
+	color: #f0e6d2;
+}
+.anyi{
+	color: #f0e6d2;
+}
+.banyuan{
+	margin-top: 20px;
+}
+.banyuan .iconfont{
+	font-size: 25px;
+} 
+.box{
+	width: auto;
+	height: 1600px;
+
+}
+.ins-ins{
+	width: 620px;
+	height: 850px;
+	font-size: 18.5px;
+	margin: 0 auto;
+	padding-top: 1134px;
+	padding-bottom: 139px
+		
+}
+.ins-ins h1{
+	color: #f0e6d2;
+	text-align: center;
+}
+.ins-ins p{
+	color: #f0e6d2;
+}
+.ins-head{
+	position: absolute;
+	margin-top: -185px;
+	margin-left: 280px;
+}
+.huaping{
+	font-size: 10px;
+	text-align: center;
+}
+ .icon-shuangxiala{
+	margin-left: 22px;
+	color: #f0e6d2;
+}
+.icon-xiahua{
+      margin-left: 50px;
+}
+.shahuang{
+	width: 150px;
+	height: 150px;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-left: 235px;
+	margin-top: 25px;
+}
+.shahuang img{
+	text-align: center;
+	margin-left: -170px;
+	margin-top: -25px;
+}
+.ins-ins .shamo{
+	color: #8a6c3c;
+	text-align: center;
+	font-size: 18px;
+}
+.shuruima{
+	text-align: center;
+	font-size: 12px;
+}
+
+.tencent{
+	padding: 6px;
+	background-color: #FFFFFF;
+	margin-left: 789px;
+	margin-left: 41.5vw;
+}
+.site{
+	position: absolute;
+	color: #937341;
+	margin-top: 2000px;
+}

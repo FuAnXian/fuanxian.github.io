@@ -443,6 +443,7 @@ a {
     height:320px;
     background:url(http://bj.bcebos.com/v1/hnteacher-resources/PersonalWordAttachment/20191211/6371165185309618569664447.png?authorization=bce-auth-v1/4ad12fdb4b764e7880528b4c1a87f98a/2019-12-11T01%3A04%3A13Z/-1//650bba071327fa927a643989d8ea3e391b7c2d7f8a739f3dcdf27fcd00953374)no-repeat ;
 }
+
 @media(max-width:1600px){
     .xiowrap{
         max-width: 100vw;
@@ -552,7 +553,7 @@ a {
     background: transparent;
 }
 .maxMax{
-    width: 600%;
+    width:calc(100% * 6);
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
@@ -818,4 +819,53 @@ a {
 }
 .fdd{
     display: none;
+}
+
+
+
+
+
+.shipin{
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .7);
+	z-index: 999;
+	display: none;
+}
+.shipin video{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 70%;
+	transform: translate(-50%,-50%);
+}
+#btnDelete{
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 8%;
+	right: 8%;
+	border: 1px solid #F99D20;
+	background: transparent;
+}
+#btnDelete::before{
+	content: '';
+	position: absolute;
+	right: 9px;
+	width: 20px;
+	height: 2px;
+	background: #fff;
+	transform: rotateZ(45deg);
+}
+#btnDelete::after{
+	content: '';
+	position: absolute;
+	left: 8px;
+	width: 20px;
+	height: 2px;
+	background: #fff;
+	transform: rotateZ(-45deg);
 }

@@ -30,7 +30,6 @@ window.onload = function () {
         lol = true,
         wid = maxDiv.offsetWidth;
   max.style.transform = "translateX(" + (-wid * items) + "px)";
-    var width = document.body.clientWidth;
     // 改变浏览器大小事件      
     window.onresize = function () {
         wid = maxDiv.offsetWidth;
@@ -85,7 +84,6 @@ window.onload = function () {
     }
 
 
-
     function auto() {
 
         // 判断最后一张先取消过度效果 在马上跳回第一张 10毫秒之后重新赋值items 和添加过度效果
@@ -111,7 +109,7 @@ window.onload = function () {
 
             }
 
-        }, 800)
+        }, 800);
     }
 
 
@@ -136,6 +134,29 @@ window.onload = function () {
             }
         }
     }
+
+
+	 let topRight = document.querySelector('.topRight')
+	 let shiPin = document.querySelector('.shipin');
+	 let btnDelete = document.querySelector('#btnDelete');
+	 let yingLiu = document.querySelector('.yingliu');
+	 
+	 
+ 
+	topRight.addEventListener('click',()=>{
+		shiPin.style.display = 'block';
+	})
+	
+	btnDelete.addEventListener('click',()=>{
+		shiPin.style.display = 'none';
+	})
+	
+	yingLiu.addEventListener('click',()=>{
+		shiPin.style.display = 'block';
+	})
+ 
+
+
 
 
 }
