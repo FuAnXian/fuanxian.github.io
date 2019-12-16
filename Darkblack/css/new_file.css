@@ -1072,7 +1072,7 @@ nav ul li:hover p:after {
 	position: fixed;
 	top: -90px;
 	width: 100%;
-	height: 4.375rem;
+	height: 5.375rem;
 	z-index: 9;
 	background: #121212;
 }
@@ -1099,8 +1099,7 @@ nav ul li:hover p:after {
 
 .fixed .icons span {
 	color: #A06A0F;
-
-	line-height: 4.375rem;
+	line-height: 5.375rem;
 }
 
 .fixed ul {
