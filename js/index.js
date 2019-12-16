@@ -138,6 +138,7 @@ window.onload = function () {
 
 	 let topRight = document.querySelector('.topRight')
 	 let shiPin = document.querySelector('.shipin');
+	 let vid = shiPin.querySelector('video');
 	 let btnDelete = document.querySelector('#btnDelete');
 	 let yingLiu = document.querySelector('.yingliu');
 	 
@@ -145,10 +146,12 @@ window.onload = function () {
  
 	topRight.addEventListener('click',()=>{
 		shiPin.style.display = 'block';
+		vid.play();
 	})
 	
 	btnDelete.addEventListener('click',()=>{
 		shiPin.style.display = 'none';
+		vid.pause();
 	})
 	
 	yingLiu.addEventListener('click',()=>{

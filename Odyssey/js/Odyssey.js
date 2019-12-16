@@ -136,29 +136,17 @@ window.onload = function () {
 	
 	
 	let audio = document.querySelector('.audio');
-	let yaSuo = document.querySelector('.yansuo')
-	let jinKesi = document.querySelector('.jinkesi')
-	let kaiYin = document.querySelector('.kaiyin')
-	let jie = document.querySelector('.jie')
+	let suo = document.querySelectorAll('.suo');
+	let audioSrc = ['../images/yasuo.wav','../images/jinkesi.wav','../images/kaiyin.wav','../images/jie.wav'];
 	
-	yaSuo.addEventListener('click',function(){
-		audio.src = '../images/yasuo.wav';
+	for(let i = 0; i < suo.length; i++){
+		suo[i].addEventListener('click',function(){
+		audio.src = audioSrc[i];
 		audio.play();
-	})
+    	})
+	}
 	
-	jinKesi.addEventListener('click',function(){
-		audio.src = '../images/jinkesi.wav';
-		audio.play();
-	})
 	
-	kaiYin.addEventListener('click',function(){
-		audio.src = '../images/kaiyin.wav';
-		audio.play();
-	})
 	
-	jie.addEventListener('click',function(){
-		audio.src = '../images/jie.wav';
-		audio.play();
-	})
 	
 }
