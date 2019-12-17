@@ -133,7 +133,11 @@ window.onload = function () {
         imgIs.style.display = 'none';
         body.style.overflow = 'auto';
     }
-	
+	document.onkeydown = function(e){
+		var key = e.keyCode;
+		if(key === 38){
+			window.scrollTo(0,0);
+		}}
 	
 	let audio = document.querySelector('.audio');
 	let suo = document.querySelectorAll('.suo');
@@ -142,7 +146,7 @@ window.onload = function () {
 	for(let i = 0; i < suo.length; i++){
 		suo[i].addEventListener('click',function(){
 		audio.src = audioSrc[i];
-		audio.play();
+		audio.play();    
     	})
 	}
 	

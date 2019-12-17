@@ -17,7 +17,11 @@ window.onload = function () {
 
     }
 
-
+document.onkeydown = function(e){
+	var key = e.keyCode;
+	if(key === 38){
+		window.scrollTo(0,0);
+	}}
     //  地区轮播
     let maxLeft = document.querySelector('.maxLeft'),
         maxRight = document.querySelector('.maxRight'),
